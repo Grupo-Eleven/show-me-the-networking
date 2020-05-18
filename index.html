@@ -18,6 +18,8 @@
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet">
     
     <script>
         (function(h,o,t,j,a,r){
@@ -45,6 +47,8 @@
   <!-- End Google Tag Manager (noscript) -->
   
     <main>
+
+        <!-- Webinar section -->
         <section id="webinar">
             <div class="container">
                 <div class="flex">
@@ -55,7 +59,7 @@
                         <h1>Como adaptar <br></span>pequenos negócios</span> <br> para o mundo digital em <br> tempos de quarentena?</h1>
                     </div>
 
-                    <!-- Formulário -->
+                    <!-- Formulário Topo -->
                     <div id="form">
                         <form>
                             <div class="form-group row">
@@ -128,45 +132,52 @@
                 </div>
             </div>
         </section>
-
-        <section>
-            <div class="container">
+    
+        <!-- Convidados Section -->
+        <section id="convidados">
+            <div class="conv-container">
+                <h1>Convidados</h1>
                 <div class="row">
-                    Convidados
+                    <div class="col-md-6" id="conv1">
+                        <img src="./img/conv1.png" class="convidado-img" alt="mulher negra representando convidada 1">
+                        <h2 class="nome-conv">lorem ipsun</h2>
+                        <p class="info-conv">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                    </div>
+                    <div class="col-md-6" id="conv2">
+                        <img src="./img/conv2.png" class="convidado-img" alt="homem branco representando convidada 2">
+                        <h2 class="nome-conv">lorem ipsun</h2>
+                        <p class="info-conv">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                    </div>
+                </div>
+
+                <!-- Formulário Rodapé -->
+                <div id="form">
+                    <form>
+                        <div class="form-group row">
+                        <div class="col-sm-10">
+                            <label for="email" class="sr-only">Email</label>
+                            <input type="email" class="form-control rounded" id="email" placeholder="SEU EMAIL">
+                        </div>
+                        </div>
+                        <div class="form-group row">
+                        <div class="col-sm-10">
+                            <label for="email" class="sr-only">Nome</label>
+                            <input type="text" class="form-control rounded" id="nome" placeholder="SEU NOME">
+                        </div>
+                        </div>
+                        <div class="form-group d-flex align-self-center">
+                        <div class="col-sm-10">
+                            <button type="submit" class="btn align-self-center rounded">QUERO ASSISTIR</button>
+                        </div>
+
+                        </div>
+                    </form>
                 </div>
             </div>
         </section>
     </main>
 
     <script src="contador.js"></script>
-
-    <section id="convidados">
-        <div class="conv-container">
-            <h1>Convidados</h1>
-            <div class="row">
-                <div class="col-md-6" id="conv1">
-                    <img src="./img/conv1.png" class="convidado-img" alt="mulher negra representando convidada 1">
-                    <h2>lorem ipsun</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                </div>
-                <div class="col-md-6" id="conv2">
-                    <img src="./img/conv2.png" class="convidado-img" alt="homem branco representando convidada 2">
-                    <h2>lorem ipsun</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                </div>
-            </div>
-            <form>
-                <div class="form-group">
-                  <input type="text" name="name" class="form-control" id="exampleInputName1" placeholder="seu nome" pattern="^\D{2,}\s[\D\s]{2,}$" required>
-                </div>
-                <div class="form-group">
-                  <input type="email" name="email" class="form-control" id="exampleInputEmail1" placeholder="seu e-mail" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,63}$" required>
-                </div>
-                <button type="submit" class="btn btn-primary">Quero assistir</button>
-              </form>
-        </div>
-    </section>
-
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
