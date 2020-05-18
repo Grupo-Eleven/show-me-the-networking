@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "repository": "https://github.com/Grupo-Eleven/show-me-the-networking.git",
-  "author": "Mirelle Silva <mirellepollyane@gmail.com>",
+  "author":
+    "Mirelle Silva <mirellepollyane@gmail.com>",
   "license": "MIT",
   "scripts": {
     "dev": "parcel index.html",
