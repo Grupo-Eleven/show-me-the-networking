@@ -1,21 +1,50 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+    <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-KGR7LWH');</script>
+    <!-- End Google Tag Manager -->
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
     <title>Show me the networking</title>
 </head>
 <body>
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KGR7LWH"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
     
     <section id="convidados">
-        <div class="container">
+        <div class="conv-container">
+            <h1>Convidados</h1>
             <div class="row">
-                <h1>Convidados</h1>
                 <div class="col-md-6" id="conv1">
-                    <img src="" alt="">
+                    <img src="./img/conv1.png" class="convidado-img" alt="mulher negra representando convidada 1">
+                    <h2>lorem ipsun</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                </div>
+                <div class="col-md-6" id="conv2">
+                    <img src="./img/conv2.png" class="convidado-img" alt="homem branco representando convidada 2">
+                    <h2>lorem ipsun</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                 </div>
             </div>
+            <form>
+                <div class="form-group">
+                  <input type="text" name="name" class="form-control" id="exampleInputName1" placeholder="seu nome" required>
+                </div>
+                <div class="form-group">
+                  <input type="email" name="email" class="form-control" id="exampleInputEmail1" placeholder="seu e-mail" required>
+                </div>
+                <button type="submit" class="btn btn-primary">Quero assistir</button>
+              </form>
         </div>
     </section>
 
