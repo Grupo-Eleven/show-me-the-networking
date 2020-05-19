@@ -264,7 +264,25 @@ p.info-conv {
     text-align: center;
     letter-spacing: 0.1em;
     color: #FFFFFF;
+    width: 60%;
+    margin: 0 auto;
     
+}
+
+@media screen and (max-width: 600px) {
+    p.info-conv {
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 18px;
+        text-align: center;
+        letter-spacing: 0.1em;
+        color: #FFFFFF;
+        width: 95%;
+        margin: 0 auto;
+        
+    }
 }
 
 form {
@@ -282,6 +300,7 @@ form {
     text-align: center;
     padding: 50px;
 }
+
 
 
 
