@@ -3,11 +3,15 @@
   "version": "1.0.0",
   "main": "index.js",
   "repository": "https://github.com/Grupo-Eleven/show-me-the-networking.git",
-  "author": "Mirelle Silva <mirellepollyane@gmail.com>",
+  "author": "Grupo-Eleven>",
+  "contributors": [
+    "Mirelle Silva <mirellepollyane@gmail.com>",
+    "Guilherme Costa <guicosta87@yahoo.com.br>"
+  ],
   "license": "MIT",
   "scripts": {
-    "dev": "parcel index.html",
-    "build": "parcel build index.html"
+    "dev": "parcel index.html thank-you.html",
+    "build": "parcel build index.html thank-you.html"
   },
   "devDependencies": {
     "parcel-bundler": "^1.12.4"
