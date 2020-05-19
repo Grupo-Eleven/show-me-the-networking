@@ -82,21 +82,22 @@ html {
 }
     
 /* Formulários */
-#form {
+.form {
     width: 464px;
     text-align: center;
     margin: 0 -15 auto 50px;
 }
 
-#form-rodape {
+.form-rodape {
     width: 464px;
     text-align: center;
     margin: 0 auto 0;
 }
 
 
-button.rounded {
+#mc-embedded-subscribe.rounded {
     border-radius: 2rem!important;
+    border: none;
     width: 295px;
     height: 68px;
     font-size: 18px;
@@ -109,13 +110,13 @@ button.rounded {
 }
 
 @media screen and (max-width: 600px) {
-    #form {
+    .form {
         width: 90%;
         text-align: center;
         margin: 0 auto;
     }
 
-    #form-rodape {
+    .form-rodape {
         width: 100%;
         text-align: center;
         margin: 0 auto;
