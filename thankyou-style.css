@@ -370,3 +370,8 @@ footer {
         transform: translate3d(0, 0, 0);
     }
 }
+
+iframe {
+    width: 80%;
+    height: 700px;
+}
