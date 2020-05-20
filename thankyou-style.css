@@ -299,6 +299,8 @@ footer {
 #button-answer,
 #button-send {
     margin: 0 auto;
+    padding: 15px 50px ;
+    font-size: 30px;
 }
 
 #button-thanks {
@@ -307,10 +309,34 @@ footer {
 
 /* Form Recomendações */
 #nps {
-    background-color: rgba(206, 205, 205, 0.85);
+    background-color: rgba(206, 205, 205);
     width: fit-content;
     padding: 30px;
     margin: 0 auto;
+}
+
+#nps h2 {
+    color: black;
+    font-weight: bolder;
+    letter-spacing: 0.80px;
+}
+
+@media screen and (max-width: 600px) {
+    #nps {
+        background-color: rgba(206, 205, 205, 0.85);
+        width: 100%;
+        padding: 15px;
+        margin: 0 auto 20px;
+    }
+
+    #button-answer,
+    #button-send {
+    margin: 0 auto;
+    padding: 7px 25px ;
+    font-size: 30px;
+}
+
+    
 }
 
 #recomendacao {
