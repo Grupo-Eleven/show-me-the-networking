@@ -120,6 +120,17 @@
     <section id="exit-intent-modal" class="o-section o-exit-modal">
         <div class="o-wrapper o-wrapper--centered-content o-exit-modal__wrapper">
 
+            <section class="o-wrapper o-exit-modal__header">
+
+                <img
+                    id="button-close-modal"
+                    src="/close-icon.svg"
+                    alt="close-icon"
+                    class="a-exit-modal__close-button"
+                >
+
+            </section>
+
 
             <section class="o-wrapper o-wrapper--centered-content o-wrapper--row-gap--large o-exit-modal__body">
 
@@ -166,7 +177,7 @@
                             </div>
                             <div class="classificacao d-flex flex-column-reverse">
                                 <label for="dez">10</label>
-                                <input type="radio" name="recomendacao" value="10" id="dez">
+                                <input type="radio" name="recomendacao" value="10" id="dez" checked>
                             </div>
                         </div>
                         <div id="validacao">
@@ -179,7 +190,7 @@
                         </div>
                     </form>
                     <div class="d-flex flex-column pt-4"> 
-                        <input type="submit" value="Enviar" id="button-answer" class="btn btn-success btn-lg">
+                        <input type="submit" value="Enviar" id="button-send" class="btn btn-success btn-lg">
                     </div>
             </section>
 
