@@ -83,7 +83,6 @@ p {
     background: #102732;
     margin: 50px auto;
     padding: 50px;
-    width: ;
     color: #ffffff;
 }
 
@@ -297,6 +296,7 @@ footer {
     right: 10px;
 }
 
+#button-answer,
 #button-send {
     margin: 0 auto;
 }
@@ -306,6 +306,13 @@ footer {
 }
 
 /* Form Recomendações */
+#nps {
+    background-color: rgba(206, 205, 205, 0.85);
+    width: fit-content;
+    padding: 30px;
+    margin: 0 auto;
+}
+
 #recomendacao {
     font-size: 20px;
     width: 100%;
