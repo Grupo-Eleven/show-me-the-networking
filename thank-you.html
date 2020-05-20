@@ -124,9 +124,9 @@
             <section class="o-wrapper o-wrapper--centered-content o-wrapper--row-gap--large o-exit-modal__body">
 
                 <h2 class="a-title a-title--level-2">
-                    <b class="a-text--marked-on-bg ">De 0 a 10, quanto você <br> nos recomendaria à um amigo?</b>
+                    <b class="a-text--marked-on-bg ">De 0 a 10, quanto você <br> recomendaria esse conteúdo à um amigo?</b>
                 </h2>
-                    <form action="">
+                    <form method="POST" name="nps" netlify>
                         <div class="d-flex" id="recomendacao">
                             <div class="classificacao d-flex flex-column-reverse">
                                 <label for="um">1</label>
@@ -179,9 +179,7 @@
                         </div>
                     </form>
                     <div class="d-flex flex-column pt-4"> 
-                        <button id="button-answer" href="#mc_embed_signup" class="btn btn-success btn-lg">
-                            Enviar
-                        </button>
+                        <input type="submit" value="Enviar" id="button-answer" href="#mc_embed_signup" class="btn btn-success btn-lg">
                     </div>
             </section>
 
