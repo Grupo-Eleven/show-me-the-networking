@@ -25,7 +25,7 @@
     <noscript><img height="1" width="1" style="display:none"
     src="https://www.facebook.com/tr?id=841471716372852&ev=PageView&noscript=1"/>
     </noscript>
-  <!-- End Facebook Pixel Code -->
+    <!-- End Facebook Pixel Code -->
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -57,6 +57,9 @@
     </script>
 
     <title>Quero Digitalizar</title>
+
+     <!-- Favicon -->
+     <link rel="icon" type="image/png" href="/img/flecha-img.png">
 </head>
 <body>
   <!-- Google Tag Manager (noscript) -->
@@ -68,18 +71,18 @@
 
         <!-- Obrigado section -->
         <section id="obrigado">
-            <div class="container">
+            <div class="">
                 <div class="flex">
 
                     <!-- Introdução -->
                     <div id="intro">
                         <h1>Obrigado!</h1>
-                        <h2>O Webnar irá ao ar dia xxxx, só falta você abrir seu email e confirmar!</h2>
+                        <h2>O Webinar irá ao ar dia 20/05/2020, só falta você abrir seu email e confirmar!</h2>
                     </div>
 
                     <div id="inscricao">
                         <h1>Confirme sua inscrição</h1>
-                        <ol>
+                        <ol class="obrigado-list">
                             <li>Acesse seu e-mail</li>
                             <li>Cheque SPAM e lixo eletrônico</li>
                             <li>Clique no link de confirmação</li>
@@ -94,16 +97,16 @@
     </main>
 
     <footer>
-        <div class="container">
+        <div class="">
             <div class="row">
                 <div class="col-md-6" id="logo">
-                    <img src="./img/quero-digitalizar-logo-03.png" alt="logo da Quero Digitalizar">
+                    <img src="./img/quero-digitalizar-logo-03-sm.png" alt="logo da Quero Digitalizar">
                 </div>
                 <div class="col-md-6" id="contatos">
                     <h5 style="font-weight: bold;">Webinar</h5>
                     <p>Como adaptar pequenos negócios para o mundo digital em tempos de quarentena</p>
                     <div id="rs-grid">
-                        <div id="compartilhe"><h6 style="font-weight: bold;">Compartilhe:</h6></div>
+                        <div id="compartilhe"><h6>Compartilhe:</h6></div>
                         <div class="contatos" id="img1"></div>
                         <div class="contatos" id="img2"></div>
                         <div class="contatos" id="img3"></div>
@@ -117,30 +120,68 @@
     <section id="exit-intent-modal" class="o-section o-exit-modal">
         <div class="o-wrapper o-wrapper--centered-content o-exit-modal__wrapper">
 
-            <section class="o-wrapper o-exit-modal__header">
-
-                <img
-                    id="button-close-modal"
-                    src="/close-icon.svg"
-                    alt="close-icon"
-                    class="a-exit-modal__close-button"
-                >
-
-            </section>
 
             <section class="o-wrapper o-wrapper--centered-content o-wrapper--row-gap--large o-exit-modal__body">
 
                 <h2 class="a-title a-title--level-2">
-                    <b class="a-text--marked-on-bg ">Se inscreva já! O webinar <br> ficará disponível por pouco tempo!</b>
+                    <b class="a-text--marked-on-bg ">De 0 a 10, quanto você <br> nos recomendaria à um amigo?</b>
                 </h2>
-                   <div class="d-flex flex-column pt-4"> 
+                    <form action="">
+                        <div class="d-flex" id="recomendacao">
+                            <div class="classificacao d-flex flex-column-reverse">
+                                <label for="um">1</label>
+                                <input type="radio" name="recomendacao" value="1" id="um">
+                            </div>
+                            <div class="classificacao d-flex flex-column-reverse">
+                                <label for="dois">2</label>
+                                <input type="radio" name="recomendacao" value="2" id="dois">
+                            </div>
+                            <div class="classificacao d-flex flex-column-reverse">
+                                <label for="tres">3</label>
+                                <input type="radio" name="recomendacao" value="3" id="tres">
+                            </div>
+                            <div class="classificacao d-flex flex-column-reverse">
+                                <label for="quatro">4</label>
+                                <input type="radio" name="recomendacao" value="4" id="quatro">
+                            </div>
+                            <div class="classificacao d-flex flex-column-reverse">
+                                <label for="cinco">5</label>
+                                <input type="radio" name="recomendacao" value="5" id="5">
+                            </div>
+                            <div class="classificacao d-flex flex-column-reverse">
+                                <label for="seis">6</label>
+                                <input type="radio" name="recomendacao" value="6" id="seis">
+                            </div>
+                            <div class="classificacao d-flex flex-column-reverse">
+                                <label for="sete">7</label>
+                                <input type="radio" name="recomendacao" value="7" id="sete">
+                            </div>
+                            <div class="classificacao d-flex flex-column-reverse">
+                                <label for="oito">8</label>
+                                <input type="radio" name="recomendacao" value="8" id="oito">
+                            </div>
+                            <div class="classificacao d-flex flex-column-reverse">
+                                <label for="nove">9</label>
+                                <input type="radio" name="recomendacao" value="9" id="nove">
+                            </div>
+                            <div class="classificacao d-flex flex-column-reverse">
+                                <label for="dez">10</label>
+                                <input type="radio" name="recomendacao" value="10" id="dez">
+                            </div>
+                        </div>
+                        <div id="validacao">
+                            <label for="email" class="sr-only">Email</label>
+                            <input id="email" class="form-control" type="email" placeholder="Seu email" required>
+                        </div>
+                        <div id="sugestao">
+                            <label for="sugestao" class="sr-only">Dê sua Sugestão</label>
+                            <textarea name="sugestao" class="form-control" id="texto-sugestao" cols="30" rows="5" placeholder="Deixe sua sugestão, elogio, ou crítica"></textarea>
+                        </div>
+                    </form>
+                    <div class="d-flex flex-column pt-4"> 
                         <button id="button-answer" href="#mc_embed_signup" class="btn btn-success btn-lg">
-                            Não quero perder!
+                            Enviar
                         </button>
-
-                        <a id="button-thanks" href="#" class="text-dark">
-                            Não, obrigado(a)!
-                        </a>
                     </div>
             </section>
 
@@ -148,7 +189,6 @@
     </section>
 
     <script src="modal.js"></script>
-    <script src="contador.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
