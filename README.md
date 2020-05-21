@@ -1,4 +1,4 @@
-![Logo da Quero Digitalizar](https://querodigitalizar.com.br/img/quero-digitalizar-logo-03-sm.png)
+![Logo da Quero Digitalizar](https://scontent.fopo3-2.fna.fbcdn.net/v/t1.0-9/98049043_110991760621831_5248163458314141696_n.jpg?_nc_cat=103&_nc_sid=85a577&_nc_ohc=O_nerodvvWsAX93p54x&_nc_ht=scontent.fopo3-2.fna&oh=b3ac9d9d6e818302990f87583d839d82&oe=5EEC292C)
 
 #Nós somos a **Quero Digitalizar**
 
