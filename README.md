@@ -1,4 +1,4 @@
-![Logo da Quero Digitalizar](https://drive.google.com/file/d/136cnIOimv9JQAXaDIYvqkPOZXBsl31Nq/view?usp=sharing)
+![Logo da Quero Digitalizar](https://querodigitalizar.com.br/img/quero-digitalizar-logo-03-sm.png)
 
 #Nós somos a **Quero Digitalizar**
 
