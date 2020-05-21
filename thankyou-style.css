@@ -41,7 +41,7 @@ p {
 /* obrigado section */
 #obrigado {
     background: linear-gradient(180deg, #263F4B 0%, rgba(46, 75, 87, 0.4) 73.31%),
-                url('/img/bg-bottom.jpg') no-repeat top center;
+                url('/img/bg-bottom.webp') no-repeat top center;
     background-size: cover;
     width: 100vw;
     height: 100%;
@@ -139,7 +139,7 @@ p {
 @media screen and (max-width: 900px) {
     #obrigado {
         background: linear-gradient(180deg, #263F4B 0%, rgba(46, 75, 87, 0.4) 73.31%),
-                    url('/img/bg-bottom.jpg') no-repeat top center;
+                    url('/img/bg-bottom.webp') no-repeat top center;
         background-size: cover;
         width: 100vw;
         min-height: 100vh;
@@ -150,7 +150,7 @@ p {
 @media screen and (max-width: 600px) {
     #obrigado {
         background: linear-gradient(180deg, #263F4B 0%, rgba(46, 75, 87, 0.4) 73.31%),
-                    url('/img/bg-bottom.jpg') no-repeat top center;
+                    url('/img/bg-bottom-sm.webp') no-repeat top center;
         background-size: cover;
         width: 100vw;
         height: 100%;
