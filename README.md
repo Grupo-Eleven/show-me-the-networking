@@ -2,7 +2,7 @@
 
 #Nós somos a **Quero Digitalizar**
 
-A Quero Digitalizar surgiu através de um desafio, como resposta há uma necessidade da sociedade, onde os pequenos empreendedores se viram obrigados a levar os seus negócios para o mundo virtual devido a uma pandemia, onde todos precisaram ficar de quarentena. Esse desafio foi lançado pela Gama Academy, durante o **Gama Experience 33**, com o nome Show me the networking.
+A Quero Digitalizar surgiu através de um desafio, como resposta há uma necessidade da sociedade, onde os pequenos empreendedores se viram obrigados a levar os seus negócios para o mundo virtual devido a uma pandemia, em que todos precisaram ficar de quarentena. Esse desafio foi lançado pela Gama Academy, durante o **Gama Experience 33**, com o nome Show me the networking.
 
 Com uma equipe de 11 pessoas divididas entre 4 stacks (hacker, hispster, hustler e hyper), em menos de 1 semana criamos essa página, para divulgar um webinar onde os convidados expecialistas discutiram a temática, e deram dicas de como um pequeno empreendedor pode entrar para o mundo digital, e ter bons resultados.
 
